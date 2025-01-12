@@ -1,0 +1,10 @@
+body {
+    background-color: pink;
+}
+main {
+    margin-top: 2em;
+    text-align: center;
+}
+label, input, button {
+    margin-top: 1em; 
+}

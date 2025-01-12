@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Preferred assignment</title>
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <main>
+            <form class="form">
+              <h2>Login</h2>
+              <div class="form-row">
+                <label for="name" class="form-label">Username</label>
+                <input type="text" class="name-input" />
+              </div>
+              <div class="form-row">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="password-input" />
+              </div>
+              <p class="login-message">Please enter valid name and password</p>
+              <button type="submit" class="submit-button">Submit</button>
+              <p class="success">Success! Click below to authorize.</p>
+            </form>
+            <div class="token">
+              <h4>Authorization</h4>
+              <div class="result"></div>
+              <button class="auth-button" id="data">Authorize</button>
+              <p class="auth-message"></p>
+            </div>
+          </main>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" >
+          </script>
+          <script src="./index.js"></script>
+    </body>
+</html>
